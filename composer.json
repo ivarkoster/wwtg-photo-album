@@ -1,6 +1,6 @@
 {
     "name": "wwtg/wwtg-photo-album",
-    "description": Simple photoalbum module.",
+    "description": "Simple photoalbum module.",
     "type": "library",
     "keywords": [
         "zf2"
