@@ -1,0 +1,28 @@
+{
+    "name": "wwtg/wwtg-photo-album",
+    "description": Simple photoalbum module.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/wwtg/wwtg-photo-album",
+    "authors": [
+        {
+            "name": "Ivar Koster",
+            "email": "ivar.koster@gmail.com",
+            "homepage": "http://ivarkoster.nl/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "WwtgPhotoAlbum": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
